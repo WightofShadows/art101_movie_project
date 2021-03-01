@@ -1,65 +1,12 @@
-# Lab Template
-File tempate for basic HTML, CSS, and JavaScript classes
+# Art101 Movie Project
+Repository for Group 2 -
 
-## Basic Structure
-Here is the basic structure with stub or empty files in place.
+Alejandro Silva <>
 
-```
-.
-├── css
-│   └── site.css
-├── experiments
-├── img
-│   └── my_photo.jpg
-├── index.html
-├── js
-│   └── site.js
-├── lab1
-│   ├── css
-│   │   └── lab.css
-│   ├── img
-│   │   └── thing1.jpg
-│   ├── index.html
-│   └── js
-│       └── lab.js
-├── lab2
-│   ├── css
-│   │   └── lab.css
-│   ├── img
-│   │   └── thing1.jpg
-│   ├── index.html
-│   └── js
-│       └── lab.js
-├── lab3
-│   ├── css
-│   │   └── lab.css
-│   ├── img
-│   │   └── thing1.jpg
-│   ├── index.html
-│   └── js
-│       └── lab.js
-├── lab4
-│   ├── css
-│   │   └── lab.css
-│   ├── img
-│   │   └── thing1.jpg
-│   ├── index.html
-│   └── js
-│       └── lab.js
-├── lab5
-│   ├── css
-│   │   └── lab.css
-│   ├── img
-│   │   └── thing1.jpg
-│   ├── index.html
-│   └── js
-│       └── lab.js
-└── lab6
-    ├── css
-    │   └── lab.css
-    ├── img
-    │   └── thing1.jpg
-    ├── index.html
-    └── js
-        └── lab.js
-```
+Becky Phillips <>
+
+Eloise Shelvin <>
+
+Ethan Chen <ethchen@ucsc.edu>
+
+Jacob Rozio <>
