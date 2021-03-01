@@ -1,0 +1,12 @@
+#ticket-output {
+  padding: 50px;
+  text-align: center;
+  border: solid;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: maroon;
+}
+
+h1 {
+  text-align: center;
+}
