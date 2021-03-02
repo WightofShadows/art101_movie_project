@@ -11,6 +11,13 @@ h1 {
   text-align: center;
 }
 
-#ticket-result{
+#ticket-image {
+  width: 400px;
+  height: 200px;
+}
 
+#name-genre-result {
+  position: absolute;
+  top: 30%;
+  margin-left: 60px;
 }
