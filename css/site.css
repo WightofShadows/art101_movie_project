@@ -1,0 +1,16 @@
+#ticket-output {
+  padding: 50px;
+  text-align: center;
+  border: solid;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: maroon;
+}
+
+h1 {
+  text-align: center;
+}
+
+#ticket-result{
+  
+}
