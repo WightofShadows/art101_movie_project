@@ -63,6 +63,7 @@ $("#soda").click(function() {
   $("#balance").html("Your balance: $" + bal);
 })
 
+//reset values back to default
 $("#reset").click(function() {
   bal = 20;
   ppurchases, spurchases = 0;
