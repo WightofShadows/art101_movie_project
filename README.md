@@ -5,7 +5,7 @@ Alejandro Silva <asilvase@ucsc.edu>
 
 Becky Phillips <rbphilli@ucsc.edu>
 
-Eloise Shelvin <eshevin@ucsc.edu>
+Eloise Shevin <eshevin@ucsc.edu>
 
 Ethan Chen <ethchen@ucsc.edu>
 
