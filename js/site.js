@@ -10,11 +10,15 @@ $("#get-ticket").click( function() {
   "<div id='name-genre-result'><p>Name: " + nameVal + "</p><p>Favorite Genre: " + genreVal + "</p></div></div>");
 })
 
-// clicking button takes user to another page with genrrs the user can choose from
-/*
-$("#enter").click( function() {
-  window.open(location.hre)
-})
-*/
-
-// click enter button to go to genre page
+// hovering things using js
+// while( $("#enter").hover == "true") {
+//   $("#enter").style.transition = "all 5s";
+// }
+// "enter" button grows a bit while hovering over it
+// $("#enter").hover( function() {
+//   $(this).css("width", "70px");
+//   $(this).css("height", "30px");
+// }, function() {
+//   $(this).css("width", "initial");
+//   $(this).css("height", "initial");
+// })
