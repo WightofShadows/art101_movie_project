@@ -21,3 +21,15 @@ h1 {
   top: 30%;
   margin-left: 60px;
 }
+
+#enter {
+  transform: scale(1.25,1.25);
+}
+
+#enter:hover {
+  width: 70px;
+  height: 30px;
+  box-shadow: 7px 5px 10px;
+  background-color: lightgreen;
+  border: solid 1px white;
+}
