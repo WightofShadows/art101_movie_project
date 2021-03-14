@@ -9,27 +9,40 @@
 
 h1 {
   text-align: center;
+  color: gold;
+}
+
+#ticket {
+  text-align: center;
+  padding: 50px;
+  color: gold;
 }
 
 #ticket-image {
   width: 400px;
   height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #name-genre-result {
   position: absolute;
-  top: 30%;
-  margin-left: 60px;
+  top: 67%;
+  margin-left: 720px;
 }
 
-#enter {
-  transform: scale(1.25,1.25);
-}
-
-#enter:hover {
+button:hover,input:hover {
+  /*
   width: 70px;
   height: 30px;
+  */
+  transform: scale(1.25,1.25);
   box-shadow: 7px 5px 10px;
   background-color: lightgreen;
   border: solid 1px white;
+}
+
+body {
+  background-color: crimson;
 }

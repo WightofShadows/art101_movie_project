@@ -1,0 +1,27 @@
+h2 {
+  text-align: center;
+  color: gold;
+}
+
+body {
+  background-color: crimson;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  transform: scale(1.25,1.25);
+  box-shadow: 7px 5px 10px;
+  background-color: lightgreen;
+  border: solid 1px white;
+}

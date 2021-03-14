@@ -7,7 +7,7 @@ $("#get-ticket").click( function() {
   var genreVal = $("#ticket-genre").val();
 
   $("#ticket-result").html("<div><img id='ticket-image' src='img/ticket.jpg'></img>" +
-  "<div id='name-genre-result'><p>Name: " + nameVal + "</p><p>Favorite Genre: " + genreVal + "</p></div></div>");
+  "<div id='name-genre-result'><p><b>Name: " + nameVal + "</b></p><p><b>Favorite Genre: " + genreVal + "</b></p></div></div>");
 })
 
 // hovering things using js
