@@ -4,16 +4,12 @@
   border: solid;
   margin-left: 500px;
   margin-right: 500px;
+  margin-top: 250px;
   background-color: maroon;
 }
 
-h1 {
-  text-align: center;
-  color: gold;
-}
-
 #ticket {
-  text-align: center;
+  text-align: right;
   padding: 50px;
   color: gold;
 }
