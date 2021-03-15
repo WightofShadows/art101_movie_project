@@ -10,6 +10,13 @@ $("#get-ticket").click( function() {
   "<div id='name-genre-result'><p><b>Name: " + nameVal + "</b></p><p><b>Favorite Genre: " + genreVal + "</b></p></div></div>");
 })
 
+$("#door_button").hover(
+  function() {
+    $(this).attr("src", "img/open_door_button_alt.png");
+  }, function() {
+    $(this).attr("src", "img/closed_door_button_alt.png");
+  })
+
 // hovering things using js
 // while( $("#enter").hover == "true") {
 //   $("#enter").style.transition = "all 5s";

@@ -18,14 +18,15 @@
   width: 400px;
   height: 200px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 33%;
+  bottom: 5%;
+  position: absolute;
 }
 
 #name-genre-result {
   position: absolute;
-  top: 67%;
-  margin-left: 720px;
+  top: 80%;
+  margin-left: 37%;
 }
 
 button:hover,input:hover {
@@ -41,4 +42,17 @@ button:hover,input:hover {
 
 body {
   background-color: crimson;
+}
+
+#door_button {
+  width: 145px;
+  height: 110px;
+  display: block;
+  margin-left: 40%;
+  margin-top: 163px;
+  position: absolute;
+}
+
+#door_button:hover {
+  transform: scale(1.1,1.1);
 }
