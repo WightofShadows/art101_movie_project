@@ -1,6 +1,3 @@
-//take to genre page
-
-
 // prints out an image of a ticket with user info once clicking button
 $("#get-ticket").click( function() {
   var nameVal = $("#ticket-name").val();
