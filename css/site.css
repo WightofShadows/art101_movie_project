@@ -39,6 +39,10 @@ button:hover,input:hover {
   transform: scale(1.1,1.1);
 }
 
+body {
+  background: crimson;
+}
+
 #homepage_audio {
   position: absolute;
   top: 10%;

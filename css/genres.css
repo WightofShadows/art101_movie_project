@@ -11,10 +11,9 @@ p {
 }
 
 button {
-  display: block;
-  margin-top: 39.9%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 45%;
+  margin-bottom: 10%;
+  position: absolute;
 }
 
 button:hover {
@@ -25,10 +24,28 @@ button:hover {
 }
 
 #genre_background {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  margin-top: -1.5%;
-  margin-left: -.509%;
-  margin-right:-.49999999%;
+  margin-top: 1.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: scale(1.65, 1.42);
+  position: relative;
+}
+
+body {
+  background: maroon;
+}
+
+#container {
+  position: relative;
+  text-align: center;
+}
+
+#genre_text {
+  position: absolute;
+  background-color: crimson;
+  width: 15%;
+  margin-left: 0.2%;
+  top: 0;
+  border: ridge 5px gray;
 }
