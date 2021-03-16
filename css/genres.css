@@ -16,7 +16,7 @@ button {
   position: absolute;
 }
 
-button:hover {
+button:hover,input:hover {
   transform: scale(1.25,1.25);
   box-shadow: 7px 5px 10px;
   background-color: lightgreen;
@@ -45,6 +45,7 @@ body {
   position: absolute;
   background-color: crimson;
   width: 15%;
+  height: 25%;
   margin-left: 0.2%;
   top: 0;
   border: ridge 5px gray;

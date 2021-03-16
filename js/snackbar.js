@@ -15,56 +15,81 @@ var bal = 20;
 //adjustable snack costs
 var pcost = 5;
 var scost = 2;
+var ccost = 3;
 //number of purchases for each snack
 var ppurchases = 0;
 var spurchases = 0;
+var cpurchases = 0;
 
 //Balance tracker
-$("#content").append("<p id='balance'>Your balance: $" + bal + "</p>");
+$("#snacks_text").append("<p id='balance'>Your balance: $" + bal + "</p>");
 
 //Purchase list
 $("#purchase_list").append("<li id='pop_list'>Popcorn (" + ppurchases + ")</li>");
 $("#purchase_list").append("<li id='soda_list'>Soda (" + spurchases + ")</li>");
+$("#purchase_list").append("<li id='candy_list'>Candy (" + cpurchases + ")</li>");
+
+//Add tag text
+$("#popcorn_tag").html("Popcorn ($" + pcost + ")");
+$("#soda_tag").html("Soda ($" + scost + ")");
+$("#candy_tag").html("Candy ($" + ccost + ")");
 
 //Popcorn
 //Append popcorn button
-$("#content").append("<button id='pop'>Popcorn ($" + pcost + ")</button>");
+$("#popcorn_button").attr("title", "Popcorn ($" + pcost + ")");
 //Add event listener
-$("#pop").click(function() {
+function popFunction() {
   //If not enough money, print a message
   if (bal < pcost) {
-    $("#sub_content_2").html("<p>NOT ENOUGH CASH</p>");
-    $("#sub_content_2").css("color", "red");
+    alert("Not enough cash!");
   }
   //Otherwise, add 1 to purchases, subtract cost and update purchase list
   else {
     ppurchases++;
     $("#pop_list").html("Popcorn (" + ppurchases + ")");
-    $("#sub_content_2").html("");
     bal -= pcost;
   }
   //Update balance tracker
   $("#balance").html("Your balance: $" + bal);
-})
+}
 
 //Soda (works the same way)
-$("#content").append("<button id='soda'>Soda ($" + scost + ")</button>");
-$("#soda").click(function() {
+$("#soda_button").attr("title", "Soda ($" + scost + ")");
+function sodaFunction() {
   if (bal < scost) {
-    $("#sub_content_2").html("<p>NOT ENOUGH CASH</p>");
-    $("#sub_content_2").css("color", "red");
+    alert("Not enough cash!");
   }
   else {
     spurchases++;
     $("#soda_list").html("Soda (" + spurchases + ")");
-    $("#sub_content_2").html("");
     bal -= scost;
   }
   $("#balance").html("Your balance: $" + bal);
-})
+}
+
+//Candy
+$("#candy_button").attr("title", "Candy ($" + ccost + ")");
+function candyFunction() {
+  if (bal < ccost) {
+    alert("Not enough cash!");
+  }
+  else {
+    cpurchases++;
+    $("#candy_list").html("Candy (" + cpurchases + ")");
+    bal -= ccost;
+  }
+  $("#balance").html("Your balance: $" + bal);
+}
 
 //reset values back to default
 $("#reset").click(function() {
   bal = 20;
-  ppurchases, spurchases = 0;
+  ppurchases = 0;
+  spurchases = 0;
+  cpurchases = 0;
+  //Update on screen values
+  $("#balance").html("Your balance: $" + bal);
+  $("#pop_list").html("Popcorn (" + ppurchases + ")");
+  $("#soda_list").html("Soda (" + spurchases + ")");
+  $("#candy_list").html("Candy (" + cpurchases + ")");
 })
