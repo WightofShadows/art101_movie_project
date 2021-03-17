@@ -1,8 +1,9 @@
 input {
   position: absolute;
   display: block;
-  margin-left: 50%;
+  margin-left: 48%;
   margin-top: 3%;
+  top: 10%;
 }
 
 input:hover {
@@ -13,11 +14,11 @@ input:hover {
 }
 
 #dr_background {
-  margin-top: 9.5%;
+  margin-top: 11.5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  transform: scale(1.65, 1.42);
+  transform: scale(1.8, 1.6);
   position: relative;
 }
 
@@ -28,12 +29,15 @@ input:hover {
 #content {
   position: absolute;
   display: block;
-  border: 2px solid white;
+  border: 5px ridge white;
   top: -20px;
   margin-left: 8%;
   margin-right: 8%;
   padding-left: 2%;
   padding-right: 2%;
+  background-color: tan;
+  font-family: helvetica;
+  text-align: center;
 }
 
 h1 {
@@ -51,20 +55,34 @@ p {
   line-height: 1.5;
 }
 
+a {
+  color: gold;
+}
+
 #movie-one {
   position: absolute;
-  margin-left: 8%;
-  top: 510px;
+  margin-left: 20%;
+  top: 520px;
+  text-align: center;
+  font-weight: bold;
 }
 
 #movie-two {
   position: absolute;
-  margin-left: 25%;
-  top: 510px;
+  margin-left: 43%;
+  top: 520px;
+  text-align: center;
+  font-weight: bold;
 }
 
 #movie-three {
   position: absolute;
-  margin-left: 43%;
-  top: 510px;
+  margin-left: 65%;
+  top: 520px;
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  background: navy;
 }
