@@ -10,3 +10,37 @@ input:hover {
   background-color: lightgreen;
   border: solid 1px white;
 }
+
+#content {
+  /* display: block; */
+  border: 2px solid white;
+  margin-top: 17%;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text
+}
+
+h2 {
+  font-size: 25px;
+  padding-bottom: 5%;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-bottom: 20%;
+}
+
+#examples {
+  border: 2px solid white;
+  margin-top: 45%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
