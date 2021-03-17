@@ -35,7 +35,7 @@ input:hover {
   margin-right: 8%;
   padding-left: 2%;
   padding-right: 2%;
-  background-color: tan;
+  background-color: #FF0038;
   font-family: helvetica;
   text-align: center;
 }
@@ -60,27 +60,33 @@ a {
 }
 
 #movie-one {
+  border: 3px solid #800020;
   position: absolute;
-  margin-left: 20%;
+  margin-left: 18%;
   top: 520px;
   text-align: center;
   font-weight: bold;
+  padding: .5%;
 }
 
 #movie-two {
+  border: 3px solid #800020;
   position: absolute;
-  margin-left: 43%;
+  margin-left: 42%;
   top: 520px;
   text-align: center;
   font-weight: bold;
+  padding: .5%;
 }
 
 #movie-three {
+  border: 3px solid #800020;
   position: absolute;
-  margin-left: 65%;
+  margin-left: 62%;
   top: 520px;
   text-align: center;
   font-weight: bold;
+  padding: .5%;
 }
 
 body {
