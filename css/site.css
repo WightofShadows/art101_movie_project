@@ -30,13 +30,14 @@ button:hover,input:hover {
   width: 145px;
   height: 110px;
   display: block;
-  margin-left: 39.7%;
-  margin-top: 7.2%;
+  margin-left: 40.7%;
+  margin-top: 8.5%;
   position: absolute;
+  transform: scale(1.25,1.25);
 }
 
 #door_button:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1.25,1.25);
 }
 
 body {
