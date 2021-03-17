@@ -1,7 +1,8 @@
 input {
+  position: absolute;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50%;
+  margin-top: 3%;
 }
 
 input:hover {
@@ -9,4 +10,62 @@ input:hover {
   box-shadow: 7px 5px 10px;
   background-color: lightgreen;
   border: solid 1px white;
+}
+
+#dr_background {
+  margin-top: 9.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: scale(1.65, 1.42);
+  position: relative;
+}
+
+#container {
+  position: relative;
+}
+
+#content {
+  position: absolute;
+  display: block;
+  border: 2px solid white;
+  top: -20px;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text
+}
+
+h2 {
+  font-size: 25px;
+  padding-bottom: 2%;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#movie-one {
+  position: absolute;
+  margin-left: 8%;
+  top: 510px;
+}
+
+#movie-two {
+  position: absolute;
+  margin-left: 25%;
+  top: 510px;
+}
+
+#movie-three {
+  position: absolute;
+  margin-left: 43%;
+  top: 510px;
 }
