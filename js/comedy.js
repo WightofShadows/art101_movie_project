@@ -2,7 +2,7 @@
 const settings = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://imdb8.p.rapidapi.com/auto-complete?q=raiders%20of%20the%20lost%20ark",
+	"url": "https://imdb8.p.rapidapi.com/auto-complete?q=saturday%20night%20fever",
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "93f8468805msh8eb0d7c18ccdb0ep138158jsn89b55ce8261e",
@@ -24,7 +24,7 @@ $.ajax(settings).done(function (response) {
 const settings2 = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://imdb8.p.rapidapi.com/auto-complete?q=spider%20man%202",
+	"url": "https://imdb8.p.rapidapi.com/auto-complete?q=shrek%202",
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "93f8468805msh8eb0d7c18ccdb0ep138158jsn89b55ce8261e",
@@ -46,7 +46,7 @@ $.ajax(settings2).done(function (response) {
 const settings3 = {
 	"async": true,
 	"crossDomain": true,
-	"url": "https://imdb8.p.rapidapi.com/auto-complete?q=die%20hard",
+	"url": "https://imdb8.p.rapidapi.com/auto-complete?q=you%20can't%20take%20it%20with%20you",
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-key": "93f8468805msh8eb0d7c18ccdb0ep138158jsn89b55ce8261e",
