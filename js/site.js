@@ -1,3 +1,15 @@
+/**
+ * Authors: Group 2 -
+ * Alejandro Silva <asilvase@ucsc.edu>
+ * Becky Phillips <rbphilli@ucsc.edu>
+ * Eloise Shevin <eshevin@ucsc.edu>
+ * Ethan Chen <ethchen@ucsc.edu>
+ * Jacob Rozio <jrozio@ucsc.edu>
+ * Created: 27 February 2021
+ * License: Public Domain
+ * Link to main page: https://wightofshadows.github.io/art101_movie_project/html/snacks.html
+ **/
+
 var hasTicket = false;
 
 // prints out an image of a ticket with user info once clicking button

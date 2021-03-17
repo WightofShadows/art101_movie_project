@@ -1,3 +1,15 @@
+/**
+ * Authors: Group 2 -
+ * Alejandro Silva <asilvase@ucsc.edu>
+ * Becky Phillips <rbphilli@ucsc.edu>
+ * Eloise Shevin <eshevin@ucsc.edu>
+ * Ethan Chen <ethchen@ucsc.edu>
+ * Jacob Rozio <jrozio@ucsc.edu>
+ * Created: 16 March 2021
+ * License: Public Domain
+ * Link to main page: https://wightofshadows.github.io/art101_movie_project/html/snacks.html
+ **/
+
 //ajax for movie 1
 const settings = {
 	"async": true,
