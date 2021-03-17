@@ -56,27 +56,33 @@ p {
 }
 
 #movie-one {
+  border: 3px solid khaki;
   position: absolute;
-  margin-left: 20%;
+  margin-left: 17%;
   top: 520px;
   text-align: center;
   font-weight: bold;
+  padding: .5%;
 }
 
 #movie-two {
+  border: 3px solid khaki;
   position: absolute;
-  margin-left: 43%;
+  margin-left: 42%;
   top: 520px;
   text-align: center;
   font-weight: bold;
+  padding: .5%;
 }
 
 #movie-three {
+  border: 3px solid khaki;
   position: absolute;
-  margin-left: 65%;
+  margin-left: 64.5%;
   top: 520px;
   text-align: center;
   font-weight: bold;
+  padding: .5%;
 }
 
 body {
