@@ -56,7 +56,7 @@ p {
 }
 
 #movie-one {
-  border: 2px solid khaki;
+  border: 3px solid khaki;
   position: absolute;
   margin-left: 17%;
   top: 520px;
@@ -66,7 +66,7 @@ p {
 }
 
 #movie-two {
-  border: 2px solid khaki;
+  border: 3px solid khaki;
   position: absolute;
   margin-left: 42%;
   top: 520px;
@@ -76,7 +76,7 @@ p {
 }
 
 #movie-three {
-  border: 2px solid khaki;
+  border: 3px solid khaki;
   position: absolute;
   margin-left: 64.5%;
   top: 520px;
