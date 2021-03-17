@@ -24,6 +24,7 @@ button:hover,input:hover {
 }
 
 #genre_background {
+  height: 500%;
   margin-top: 1.5%;
   display: block;
   margin-left: auto;
